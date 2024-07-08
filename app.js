@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
+    res.send('Hello World!');
     return {test: "test2"}
 })
 
